@@ -1,0 +1,47 @@
+// Import font 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+// Font Weight
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+// Font family 
+$font-family: 'Roboto', sans-serif;
+
+// Colors
+$gray-light-100: #f6f6f6;
+$white: #fff;
+$orange-200: #ffb380;
+$black-300: #404040;
+$gray-light-400: #dadada;
+$black-200: #808080;
+$orange-100: #ffd9bf;
+$green-dark-400: #066100;
+$green-light-200: #95df90;
+$orange-300: #ff8c40;
+$orange-400: #f60;
+$gray-light-300: #e3e3e3;
+$yellow-200: #fbd280;
+$yellow-400: #f7a400;
+$green-400: #1ba548;
+$green-light-400: #2bbf21;
+$green-100: #c6e9d1;
+$black-100: #bfbfbf;
+$purple-200: #b990bf;
+$black-400: #000000;
+$green-light-100: #caefc8;
+$purple-400: #72207e;
+
+// Spacing
+$sp-4: .25rem;
+$sp-8: .5rem;
+$sp-16: 1rem;
+$sp-24: 1rem * 1.5;
+$sp-32: 1rem * 2;
+$sp-40: 1rem * 2.5;
+$sp-48: 1rem * 3;
+$sp-56: 1rem * 3.5;
+$sp-64: 1rem * 4;
+$sp-72: 1rem * 4.5;
+$sp-80: 1rem * 5;

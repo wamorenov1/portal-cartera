@@ -1,0 +1,28 @@
+.sidebar {
+    height: 92.5vh;
+    border-right: 1px solid $gray-light-400;
+    font-size: 1rem;
+    background-color: $white;
+    margin-top: 0rem;
+    &__list {
+        padding-left: 0;
+        list-style: none;
+    }
+    &__item {
+        border-bottom: 1px solid $gray-light-400;
+        a {
+            display: flex;
+            align-items: center;
+            padding: $sp-24 $sp-32;
+            text-decoration: none;
+            color: $black-400;
+            font-weight: $light;
+            img {
+                padding-right: $sp-8;
+            }
+            &:hover {
+                background-color: $orange-200;
+            }
+        }
+    }
+}
