@@ -1,0 +1,27 @@
+@mixin customButton($background, $color) {
+    color: $color;
+    background-color: $background;
+    border-color: $background;
+}
+// Btn Orange
+.btn-orange {
+    @include customButton($orange-300, $white)
+}
+
+.btn-orange:hover {
+    @include customButton($orange-400, $white)
+}
+
+.btn-check:focus+.btn-orange,
+.btn-orange:focus {
+    @include customButton($orange-400, $white)
+}
+
+.btn-check:checked+.btn-orange,
+.btn-check:active+.btn-orange,
+.btn-orange:active,
+.btn-orange.active,
+.show>.btn-orange.dropdown-toggle {
+    @include customButton($orange-400, $white)
+}
+// Btn Orange

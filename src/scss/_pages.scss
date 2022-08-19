@@ -1,0 +1,65 @@
+.title__box {
+    font-family: $font-family;
+    padding-bottom: $sp-8;
+    h1 {
+        font-size: $sp-32;
+        font-weight: $bold;
+        margin: 0;
+        padding-bottom: $sp-8;
+    }
+    p {
+        font-weight: $light;
+    }
+}
+
+.card__style {
+    background-color: $white;
+    border-radius: $sp-16;
+    padding: $sp-24;
+    box-shadow: $boxshadow
+}
+
+.subtitle__card {
+    padding: $sp-16 0rem;
+    margin-bottom: 0;
+    font-size: $sp-20;
+}
+
+.acciones_rapidas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    grid-template-rows: auto;
+    gap: $sp-16;
+    a {
+        width: 100%;
+    }
+}
+
+.estados_cuenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $sp-48;
+    p {
+        margin: 0;
+        font-size: $sp-16;
+        font-weight: $medium;
+        color: $black-200;
+    }
+}
+
+.userdata__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $sp-32;
+}
+.userdata__user, .userdata__empresa, .userdata__dependencia {
+    h2 {
+        font-size: $sp-24 - $sp-4;
+        line-height: 1.5;
+    }
+    p {
+        font-weight: $light;
+        margin-bottom: 0;
+    }
+}
