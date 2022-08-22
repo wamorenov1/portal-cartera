@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Pagos Cartera Empresas | Compensar caja de compensación</title>
+    <title>Pagos pendientes | Compensar caja de compensación</title>
   </head>
   <body>
     <div class="container-fluid"></div>
@@ -32,19 +32,89 @@
             <ul class="sidebar__list">
               <li class="sidebar__item"><a href="./"> <img src="./images/inicio.svg" alt="">Inicio</a></li>
               <li class="sidebar__item"><a href="./pagos.html"> <img src="./images/pagos.svg" alt="">Pagos</a></li>
-              <li class="sidebar__item"><a href=""> <img src="./images/estado-cuenta.svg" alt="">Estados de cuenta</a></li>
-              <li class="sidebar__item"><a href="">
+              <li class="sidebar__item"><a href="#"> <img src="./images/estado-cuenta.svg" alt="">Estados de cuenta</a></li>
+              <li class="sidebar__item"><a href="./liquidacion-individual">
                    Liquidación individual</a></li>
-              <li class="sidebar__item"><a href="">
+              <li class="sidebar__item"><a href="./liquidacion-archivo">
                    Liquidación por archivo</a></li>
-              <li class="sidebar__item"><a href=""> <img src="./images/certificaciones.svg" alt="">Certificaciones</a></li>
+              <li class="sidebar__item"><a href="./certificaciones"> <img src="./images/certificaciones.svg" alt="">Certificaciones</a></li>
             </ul>
           </nav>
         </div>
         <div class="col-md-12 col-lg-9 col-xxl-10" id="content">
-          <div class="container-fluid p-4">
+          <div class="container-fluid px-2 px-md-4 py-4">
             <main>
-              <h1>Pagos</h1>
+              <div class="row">
+                <div class="col-md-12 title__box">
+                  <h1>Pagos pendientes</h1>
+                  <p>Encuentre sus estados de cuenta y toda la información de sus créditos</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 userdata__box">
+                  <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-8">
+                      <div class="userdata__card card__style">
+                        <div class="userdata__user">
+                          <h2>Carlos Antonio Trujillo</h2>
+                          <p>CC 78.654.456</p>
+                        </div>
+                        <div class="userdata__empresa">
+                          <h2>Compensar Caja de Compensación</h2>
+                          <p>NIT 80065467-1</p>
+                        </div>
+                        <div class="userdata__dependencia">
+                          <h2>Dependencia</h2>
+                          <p>Nombre de la dependencia</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row py-4">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-8">
+                      <h2 class="subtitle__card">Estados de cuenta por pagar</h2>
+                      <div class="card__general scrollbar card__style--data">
+                        <div class="general__data--main">
+                          <div class="table__row head-table">
+                            <div class="table__data">Tipo</div>
+                            <div class="table__data">Referencia</div>
+                            <div class="table__data"># Creditos</div>
+                            <div class="table__data">Fecha de corte</div>
+                            <div class="table__data">Fecha limite de pago</div>
+                            <div class="table__data">Valor cuota mes</div>
+                            <div class="table__data">Valor total vencido</div>
+                            <div class="table__data">Valor a pagar</div>
+                          </div>
+                          <div class="table__row data-table">
+                            <div class="table__data"> 
+                              <div class="data-type"> 
+                                <p>G</p>
+                              </div>
+                            </div>
+                            <div class="table__data">0000000000</div>
+                            <div class="table__data">1000</div>
+                            <div class="table__data">10/08/2022</div>
+                            <div class="table__data">25/08/2022</div>
+                            <div class="table__data">$ 5.000.000</div>
+                            <div class="table__data">$ 1.000.000</div>
+                            <div class="table__data">$ 6.000.000</div>
+                          </div>
+                        </div>
+                        <div class="general__data--foo">
+                          <div class="foo__date">
+                            <p>Septiembre de 2022</p>
+                          </div>
+                          <div class="foo__buttons"><a class="btn btn-card" href=""> <img src="./images/money.svg" alt="">Pagar</a><a class="btn btn-card" href=""><img src="./images/edit.svg" alt="">Editar</a><a class="btn btn-card" href=""><img src="./images/download.svg" alt="">Descargar</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </main>
           </div>
         </div>

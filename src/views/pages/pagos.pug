@@ -1,5 +1,14 @@
 extends ../layout.pug
 block title 
-    title Pagos Cartera Empresas | Compensar caja de compensación
+    title Pagos pendientes | Compensar caja de compensación
 block content
-        h1 Pagos
+    div(class="row")
+        div(class="col-md-12 title__box")
+            h1 Pagos pendientes
+            p Encuentre sus estados de cuenta y toda la información de sus créditos
+    div(class="row")
+        div(class="col-md-12 userdata__box")
+            include ../components/userdata-card.pug
+    div(class="row")
+        div(class="col-md-12")
+            include ../components/cardgeneral.pug

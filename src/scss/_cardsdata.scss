@@ -1,0 +1,79 @@
+.card__general {
+    text-align: center;
+    width: 1002px;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    background-color: $white;
+}
+.general__data--main {
+    display: table;
+    width: 1002px;
+    padding: $sp-24;
+}
+.table__row{
+    display: table-row;
+}
+.head-table {
+    color: $black-200;
+    font-weight: 300;
+}
+.data-table {
+    color: $black-400;
+    font-weight: 500;
+    font-size: $sp-18;
+}
+.table__data{
+    padding: $sp-4;
+    display: table-cell;
+}
+.data-type {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    margin: 0;
+    background-color: $green-light-200;
+    color: $green-dark-400;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin: 0;
+    }
+}
+.general__data--foo {
+    padding: $sp-8;
+    border-top: 1px solid $gray-light-400;
+    padding: $sp-16 $sp-24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1002px;
+    .foo__date {
+        p {
+            margin: 0;
+            font-weight: $medium;
+            color: $black-200;
+            font-size: $sp-18;
+        }
+    }
+}
+.foo__buttons {
+    display: flex;
+    gap: 1rem;
+}
+.btn-card {
+    font-weight: $medium;
+    width: 8rem;
+    padding: $sp-4 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .8rem;
+    font-size: 16px;
+    img {
+        padding: 0rem $sp-4;
+    }
+}

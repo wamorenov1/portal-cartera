@@ -3,11 +3,33 @@ body {
     color: $black-400;
     background-color: $gray-light-100;
 }
-.row-no-padding, .container-fluid, .col-md-2 {
+
+.row-no-padding,
+.container-fluid,
+.col-md-2 {
     padding: 0;
     margin: 0;
 }
+
 #content-side {
     padding: 0;
     margin: 0;
+}
+
+// STYLE 1
+.scrollbar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    height: 10px;
+    background-color: #e6e6e6;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
+    background-color: transparent
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
 }

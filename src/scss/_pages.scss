@@ -19,6 +19,12 @@
     box-shadow: $boxshadow
 }
 
+.card__style--data {
+    background-color: $white;
+    border-radius: $sp-16;
+    box-shadow: $boxshadow
+}
+
 .subtitle__card {
     padding: $sp-16 0rem;
     margin-bottom: 0;
@@ -45,6 +51,7 @@
         font-size: $sp-16;
         font-weight: $medium;
         color: $black-200;
+        text-align: center;
     }
 }
 

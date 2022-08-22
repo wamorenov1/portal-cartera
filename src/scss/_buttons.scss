@@ -25,3 +25,26 @@
     @include customButton($orange-400, $white)
 }
 // Btn Orange
+
+// Btn Card
+.btn-card {
+    @include customButton($orange-100, $orange-400);
+}
+
+.btn-card:hover {
+    @include customButton($orange-100, $orange-400)
+}
+
+.btn-check:focus+.btn-card,
+.btn-card:focus {
+    @include customButton($orange-100, $orange-400)
+}
+
+.btn-check:checked+.btn-card,
+.btn-check:active+.btn-card,
+.btn-card:active,
+.btn-card.active,
+.show>.btn-card.dropdown-toggle {
+    @include customButton($orange-100, $orange-400)
+}
+// Btn Card
